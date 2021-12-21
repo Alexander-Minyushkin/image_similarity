@@ -1,4 +1,4 @@
-IMG_PATH = "../input/animals-data/dataset/"
+IMG_PATH = "../data/images/"
 IMG_HEIGHT = 512  # The images are already resized here
 IMG_WIDTH = 512  # The images are already resized here
 

@@ -82,6 +82,7 @@ if __name__ == "__main__":
 
         # Simple Best Model saving
         if val_loss < max_loss:
+            max_loss = val_loss
             print("Validation Loss decreased, saving new best model")
             torch.save(encoder.state_dict(), config.ENCODER_MODEL_PATH)
             torch.save(decoder.state_dict(), config.DECODER_MODEL_PATH)
